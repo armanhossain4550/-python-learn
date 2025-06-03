@@ -36,3 +36,4 @@ print(2**4)
 a="1"
 b="3"
 print(int(a)+int(b))
+print (45)
