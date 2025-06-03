@@ -24,3 +24,15 @@ print(tuple)
 
 dict={"name":"arman","age":"20","canVote":True}
 print(dict)
+
+
+print(15/2)
+print(15//6)
+print(5%3)
+print(2**4)
+
+
+#type casting 
+a="1"
+b="3"
+print(int(a)+int(b))
