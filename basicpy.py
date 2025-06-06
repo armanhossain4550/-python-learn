@@ -1,4 +1,4 @@
-
+"""
 print("hello")
 a=5
 b=10
@@ -71,7 +71,60 @@ print(blogHeadding.center(50))#left space is 50 then  print the given string
 
 print(blogHeadding.count("a"))
 
-aa="welcome to the console"
+aa="welcometotheconsole"
 print(aa.endswith("e"))#space ar anything else is at last then it in astring and it match as a string then it return true onthe other hand return flse 
 
 print(aa.endswith("to",4,10))#return true because to is between index 4 to 10
+
+
+#find 
+print(aa.find("to"))
+
+#isalnum
+print(aa.isalnum())#space is also count then return false 
+
+#isalpha()
+s="welcome to the haven 456"
+print(s.isalpha())  #when all alphabet then return true else return false 
+
+#islower 
+print(s.islower())
+
+#isprintable 
+str="hello welcome to the haven"
+print(str.isprintable())#if any back slas or any singn then return fslse it 
+
+#isspace()
+str="  "
+print(str.isspace())# no str only space count then return true 
+
+#istitle
+str="Wld Health Organization"
+print(str.istitle())
+
+#replace
+str="python is AA Subject"
+print(str.replace("subject","object"))
+
+#startswith
+print(str.startswith("python"))
+
+#swapcase uppercase lowewr case and lowr case convert it uppercase
+print(str.swapcase())
+
+#title
+#first charecter convert to uppercases
+
+print(str.title())
+"""
+
+#if else statement 
+
+a=int(input("enter a number"))
+print("your age is",a)
+if(a>18):
+ print("you can drive")
+else :
+ print("you can not drive")
+
+
